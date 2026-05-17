@@ -29,7 +29,7 @@
    - 360Chrome：通常也可以打开 `chrome://extensions`，或从浏览器菜单进入扩展管理页面。
 3. 开启“开发者模式”。
 4. 点击“加载已解压的扩展程序”。
-5. 选择本仓库文件夹。
+5. 选择本仓库文件夹(从本仓库下载的.zip文件)。
 
 如果你已经加载过旧版本，修改文件后需要在扩展管理页面点击这个扩展的“重新加载”，然后刷新 Editorial Manager 页面。
 
@@ -88,7 +88,7 @@ For example, these pages are stored as different entries:
    - 360Chrome usually supports `chrome://extensions`, or an extensions page from its browser menu.
 3. Enable Developer mode.
 4. Click Load unpacked.
-5. Select this repository folder.
+5. Select this repository folder(.zip file downloaded from this repository).
 
 If you already loaded an older version, click Reload for this extension on the extensions page, then refresh the Editorial Manager page.
 
