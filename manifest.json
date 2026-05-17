@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Editorial Manager Password Helper",
+  "version": "0.1.0",
+  "description": "Save and fill Editorial Manager credentials separately for each journal path.",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": [
+    "https://www.editorialmanager.com/*",
+    "https://*.editorialmanager.com/*"
+  ],
+  "action": {
+    "default_title": "Editorial Manager Password Helper",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.editorialmanager.com/*",
+        "https://*.editorialmanager.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}
